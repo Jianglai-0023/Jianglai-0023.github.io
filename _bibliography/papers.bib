@@ -5,15 +5,7 @@
 
 
 
-@book{einstein1956investigations,
-  abbr={ICML},
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  
-}
+
 
 @misc{yu2025flowreasoningtrainingllms,
       abbr={ICML},
@@ -30,6 +22,41 @@
       blog={https://yu-fangxu.github.io/FoR.github.io/},
       abstract={The ability to generate diverse solutions to a given problem is a hallmark of human creativity. This divergent reasoning is also crucial for machines, enhancing their robustness and enabling them to assist humans in many applications such as scientific discovery. However, existing approaches to multi-step reasoning with large language models (LLMs) have mostly focused only on reasoning accuracy, without further discovering more diverse valid solutions. For example, supervised fine-tuning improves reasoning quality but requires vast labeled data, while reward-maximizing reinforcement learning finds top-reward solutions while neglecting the solution diversity. To fill this gap, we propose Flow of Reasoning (FoR), an efficient diversity-seeking LLM finetuning method aimed at improving reasoning quality and diversity with minimal data. FoR formulates multi-step LLM reasoning as a Markovian flow on a DAG-structured reasoning graph. This formulation allows us to incorporate and adapt principled GFlowNet approaches, for finetuning LLMs to sample divergent paths with probabilities proportional to the (unnormalized) reward of target problems. Extensive experiments show that, with limited training examples (e.g., 15 examples), FoR enables the discovery of diverse, creative, high-quality solutions, greatly outperforming a wide range of existing inference and training methods across six challenging reasoning tasks, including BlocksWorld (embodied reasoning), Game24 (math puzzle solving), Rubik's Cube (spatial reasoning), 1D-ARC (abstraction reasoning), GSM8k (math reasoning), and ProntoQA (logical reasoning). Code is available at https://github.com/Yu-Fangxu/FoR.},
       preview={FoR.png},
+}
+
+@inproceedings{jiang-etal-2024-chinese,
+    abbr={ACL Findings},
+    title = "{C}hinese Spelling Corrector Is Just a Language Learner",
+    author = "Jiang*, Lai  and
+      Wu*, Hongqiu  and
+      Zhao, Hai  and
+      Zhang, Min",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.413/",
+    doi = "10.18653/v1/2024.findings-acl.413",
+    pages = "6933--6943",
+    abstract = "This paper emphasizes Chinese spelling correction by means of self-supervised learning, which means there are no annotated errors within the training data. Our intuition is that humans are naturally good correctors with exposure to error-free sentences, which contrasts with current unsupervised methods that strongly rely on the usage of confusion sets to produce parallel sentences. In this paper, we demonstrate that learning a spelling correction model is identical to learning a language model from error-free data alone, with decoding it in a greater search space. We propose \textit{Denoising Decoding Correction (D2C)}, which selectively imposes noise upon the source sentence to determine the underlying correct characters. Our method is largely inspired by the ability of language models to perform correction, including both BERT-based models and large language models (LLMs). We show that the self-supervised learning manner generally outperforms the confusion set in specific domains because it bypasses the need to introduce error characters to the training data which can impair the error patterns not included in the introduced error characters.",
+    selected={true},
+    code={https://github.com/Jianglai-0023/self-supervised-csc},
+    preview={D2C.png}
+}
+
+@inproceedings{yang2025understanding,
+abbr={ICLR Workshop},
+title={Understanding the Sources of Uncertainty for Large Language and Multimodal Models},
+author={Ziran Yang and Shibo Hao and Hao Sun and Lai Jiang and Qiyue Gao and Yian Ma and Zhiting Hu},
+booktitle={ICLR Workshop: Quantify Uncertainty and Hallucination in Foundation Models: The Next Frontier in Reliable AI},
+year={2025},
+url={https://openreview.net/forum?id=5By0rus8z7},
+selected={true},
+preview={sou.png}
 }
 
 @inproceedings{wu-etal-2024-role,
@@ -60,29 +87,7 @@
 
 
 
-@inproceedings{jiang-etal-2024-chinese,
-    abbr={ACL Findings},
-    title = "{C}hinese Spelling Corrector Is Just a Language Learner",
-    author = "Jiang*, Lai  and
-      Wu*, Hongqiu  and
-      Zhao, Hai  and
-      Zhang, Min",
-    editor = "Ku, Lun-Wei  and
-      Martins, Andre  and
-      Srikumar, Vivek",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
-    month = aug,
-    year = "2024",
-    address = "Bangkok, Thailand",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.findings-acl.413/",
-    doi = "10.18653/v1/2024.findings-acl.413",
-    pages = "6933--6943",
-    abstract = "This paper emphasizes Chinese spelling correction by means of self-supervised learning, which means there are no annotated errors within the training data. Our intuition is that humans are naturally good correctors with exposure to error-free sentences, which contrasts with current unsupervised methods that strongly rely on the usage of confusion sets to produce parallel sentences. In this paper, we demonstrate that learning a spelling correction model is identical to learning a language model from error-free data alone, with decoding it in a greater search space. We propose \textit{Denoising Decoding Correction (D2C)}, which selectively imposes noise upon the source sentence to determine the underlying correct characters. Our method is largely inspired by the ability of language models to perform correction, including both BERT-based models and large language models (LLMs). We show that the self-supervised learning manner generally outperforms the confusion set in specific domains because it bypasses the need to introduce error characters to the training data which can impair the error patterns not included in the introduced error characters.",
-    selected={true},
-    code={https://github.com/Jianglai-0023/self-supervised-csc},
-    preview={D2C.png}
-}
+
 
 
 
