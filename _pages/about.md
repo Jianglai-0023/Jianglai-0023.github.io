@@ -27,7 +27,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m an incoming MSCS student at UIUC. Previously, I was an undergraduate student in the [ACM Honor Class](https://acm.sjtu.edu.cn/home) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). During my undergraduate studies, I was fortunate to work on research projects under the supervision of Prof. [Lianhui Qin](https://lianhui.ucsd.edu/]) at UCSD and Prof. [Hai Zhao](https://bcmi.sjtu.edu.cn/~zhaohai/) at SJTU.
+I’m an incoming MSCS student at UIUC. Previously, I was an undergraduate student in the [ACM Honors Class](https://acm.sjtu.edu.cn/home) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). During my undergraduate studies, I was fortunate to work on research projects under the supervision of Prof. [Lianhui Qin](https://lianhui.ucsd.edu/]) at UCSD and Prof. [Hai Zhao](https://bcmi.sjtu.edu.cn/~zhaohai/) at SJTU.
 
 My research focuses on developing next-generation LLM reasoning systems with enhanced creativity, accuracy, and generalization through improved training and data synthesis methods.
 
